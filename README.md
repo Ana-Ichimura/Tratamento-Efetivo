@@ -9,10 +9,8 @@ Ana Carolina: carolichimura24@gmail.com<br>
 Pedro Henrique: phcontas@hotmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
-<br>e motivação da escolha realizada. <br>
+O sistema Tratamento Efetivo é centrado em ofececer meios para melhorar a vida de profissionais da área da saúde. Apesar dos constantes avanços que a ciência obtem na área da saúde, é notório que o tratamento de algumas doenças pode ser considerado complexo pela falta de informações para tratar as mesmas. Baseado na falta de informações para tratar determinadas doenças, o sistema terá como objetivo fornecer dados e informações que auxilie os medicos a terem um direcionamento de como realizar o tratamento de tais doenças de acordo com os dados do usuário (Ex: se a pessoa é criança, adolescente ou adulto e informações acerca do peso). A base de dados poderá ser inserida manualmente pelos médicos a medida em que um tratamento for bem sucedido, com essa informação ele poderá auxiliar futuros profissionais que venha passar pela mesma situação, além da inserção manual de informações o sistema terá uma base de dados sólida com informações de doenças já conhecidas.
 
-> A empresa "Devcom Projetos" visa colaborar com desenvolvimento de projetos para uma sociedade melhor. Sabendo-se dos desafios para gerenciar projetos dentro de uma empresa e visando unir as informações relativas a funcionários, departamentos e projetos em um mesmo local, ficamos motivados com o desenvolvimento deste sistema. O Sistema "Devcom" tem como objetivo gerenciar todas as informações ao desenvolvimento das atividades de projetos em diversas localidades do país. Para realizar suas operações adequadamente e empresa necessita que sistema que armazene informações relativas aos Projetos, Departamentos e Empregados, além de também armazenar dados sobre  Dependentes e Históricos de Salário dos empregados. O sistema deverá gerar um conjunto de relatórios que por sua vez atenderá os anseios da empresa em questão. 
  
 
 ### 3.MINI-MUNDO <br>
