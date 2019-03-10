@@ -23,4 +23,4 @@ Este documento contém a especificação do projeto do banco de dados <nome do p
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
-![Arquivo PDF do Protótipo Balsamiq feito para o Sistema Tratamento Efetivo](https://github.com/discipbd1/trab01/blob/master/arquivos/EmpresaDevcom.pdf?raw=true "Empresa Devcom")
+![Arquivo PDF do Protótipo Balsamiq feito para o Sistema Tratamento Efetivo](https://github.com/Ana-Ichimura/Tratamento-Efetivo/blob/master/Telas%20projeto%20BD1%20v2.0.pdf)
