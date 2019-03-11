@@ -7,8 +7,8 @@ Trabalho desenvolvido durante a disciplina de BD1
 Integrantes do grupo<br>
 Ana Carolina: carolichimura24@gmail.com<br>
 Pedro Henrique: phcontas@hotmail.com<br>
-Emanuel Medeiros: market_live@outlook.com
-Filipe Ribeiro: fillipefs.ribeiro@gmail.com
+Emanuel Medeiros: market_live@outlook.com<br>
+Filipe Ribeiro: fillipefs.ribeiro@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 >O sistema Tratamento Efetivo é centrado em ofececer meios para melhorar a vida de profissionais da área da saúde. Apesar dos constantes avanços que a ciência obtem na área da saúde, é notório que o tratamento de algumas doenças pode ser considerado complexo pela falta de informações para tratar as mesmas.
