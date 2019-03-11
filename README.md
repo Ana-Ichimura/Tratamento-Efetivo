@@ -39,6 +39,6 @@ O maior objetivo do sistema é que o paciente seja tratado de maneira eficaz.
  
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
-  
 
+https://github.com/Ana-Ichimura/Tratamento-Efetivo/blob/master/Tabela%20de%20dados.xlsx
 
