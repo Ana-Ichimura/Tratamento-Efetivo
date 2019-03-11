@@ -28,18 +28,9 @@ O maior objetivo do sistema é que o paciente seja tratado de maneira eficaz.
 
 ![Arquivo PDF do Protótipo Balsamiq feito para o Sistema Tratamento Efetivo](https://github.com/Ana-Ichimura/Tratamento-Efetivo/blob/master/Telas%20projeto%20BD1%20v2.0.pdf)
 
-### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
-
-Sugestão: https://balsamiq.com/products/mockups/<br>
-
-![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
-![Arquivo PDF do Protótipo Balsamiq feito para Empresa Devcom](https://github.com/discipbd1/trab01/blob/master/arquivos/EmpresaDevcom.pdf?raw=true "Empresa Devcom")
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
-    b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
-> A Empresa DevCom precisa inicialmente dos seguintes relatórios:
+> O Sistema Tratamento Efetivo precisa inicialmente dos seguintes relatórios:
 * Relatório que mostre o maior número de doenças o qual o sistema teve novas informações inseridas de acordo com o periodo de busca do usuário, ou seja, será possível ter uma noção de quantos atendimentos relacionados a determinadas doenças teve em um determinado periodo.
 * Relatório que contenha quais foram os medicos que mais atenderam pacientes e por consequência inseriram informações novas de acordo com o tratamento realizado por cada um.
 * Relatório que mostre quais doenças estão com a base de dados em falta e que não tiveram informações modificadas em um periodo de N dias (ou seja, há quantos dias as informações foram atualizadas/modificadas).
@@ -48,11 +39,6 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
  
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
-    a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas/registros de dados.
-    b) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
-    e deve ser criada antes do modelo conceitual
-    c) Após criada esta tabela não deve ser modificada, pois será comparada com os resultados finais na conclusão do trabalho
-    
-![Exemplo de Tabela de dados da Empresa Devcom](https://github.com/discipbd1/trab01/blob/master/arquivos/TabelaEmpresaDevCom_sample.xlsx?raw=true "Tabela - Empresa Devcom")
+  
 
 
