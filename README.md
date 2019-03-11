@@ -46,6 +46,6 @@ O maior objetivo do sistema é que o paciente seja tratado de maneira eficaz.
     e deve ser criada antes do modelo conceitual
     c) Após criada esta tabela não deve ser modificada, pois será comparada com os resultados finais na conclusão do trabalho
     
-![Tabela de dados Sistema Tratamento Efetivo](https://github.com/discipbd1/trab01/blob/master/arquivos/TabelaEmpresaDevCom_sample.xlsx?raw=true "Tabela - Empresa Devcom")
+![Tabela de dados Sistema Tratamento Efetivo](https://github.com/Ana-Ichimura/Tratamento-Efetivo/blob/master/Tabela%20de%20dados.xlsx)
 
 
