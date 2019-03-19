@@ -11,10 +11,8 @@ Emanuel Medeiros: market_live@outlook.com<br>
 Filipe Ribeiro: fillipefs.ribeiro@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
->O sistema Tratamento Efetivo é centrado em ofececer meios para melhorar a vida de profissionais da área da saúde. Apesar dos constantes avanços que a ciência obtem na área da saúde, é notório que o tratamento de algumas doenças pode ser considerado complexo pela falta de informações para tratar as mesmas.
-Baseado na falta de informações para tratar determinadas doenças, o sistema terá como objetivo fornecer dados e informações que auxilie os medicos a terem um direcionamento de como realizar o tratamento de tais doenças de acordo com os dados do usuário (Ex: se a pessoa é criança, adolescente ou adulto e informações acerca do peso). A base de dados poderá ser inserida manualmente pelos médicos a medida em que um tratamento for bem sucedido, com essa informação ele poderá auxiliar futuros profissionais que venha passar pela mesma situação, além da inserção manual de informações o sistema terá uma base de dados sólida com informações de doenças já conhecidas.
-
- 
+>O sistema Tratamento Efetivo é centrado em ofececer meios para melhorar a vida de pessoas que precisam utilizar o sistema de saúde. Apesar dos constantes avanços que a ciência obtem na área da saúde, diversos serviços prestados e oferecidos por hospitais continuam sendo realizados de modo manual.
+Baseado na necessidade de automatizar alguns serviços de saúde, o sistema terá como objetivo fornecer dados e informações que auxilie os usuários a obterem informações de tratamentos que estão sendo realizados e foram finalizados, assim como agendar consultar sem precisar deslocar até a unidade física do hospital. A base de dados principal será composta pelo cadastro dos pacientes que opte por utilizar o sistema do hospital, com o cadastro a pessoa poderá usufruir dos beneficios oferecidos pelo sistema (tais como acompanhamento de um tratamento e os passos realizados nos tratamentos anteriores).
 
 ### 3.MINI-MUNDO <br>
 
@@ -32,11 +30,11 @@ O maior objetivo do sistema é que o paciente seja tratado de maneira eficaz.
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     
 > O Sistema Tratamento Efetivo precisa inicialmente dos seguintes relatórios:
-* Relatório que mostre o maior número de doenças o qual o sistema teve novas informações inseridas de acordo com o periodo de busca do usuário, ou seja, será possível ter uma noção de quantos atendimentos relacionados a determinadas doenças teve em um determinado periodo.
-* Relatório que contenha quais foram os medicos que mais atenderam pacientes e por consequência inseriram informações novas de acordo com o tratamento realizado por cada um.
-* Relatório que mostre quais doenças estão com a base de dados em falta e que não tiveram informações modificadas em um periodo de N dias (ou seja, há quantos dias as informações foram atualizadas/modificadas).
-* Relatório que quantifique o número de profissionais e contenha os dados principais desses funcionários (Ex: nome, profissão, formação, idade, Estado de atuação).
-* Relatório que tenha a quantia de pacientes cadastrados no sistema de acordo com o perfil traçado no cadastro de pacientes. (Ex: Crianças: 10, adultos: 20, acima do peso: 10, abaixo do peso: 15).
+* Relatório que mostre os tratamentos realizados pelo usuário de acordo com o periodo especfiicado por ele. Tal relatório deverá mostrar os tratamentos em andamentos também se o usuário desejar.
+* Relatório que informe os respectivos médicos que foram responsáveis por determinados tratamentos e quais procedimentos o médico utilizou para solucionar o problema do paciente.
+* Relatório que mostre quais tratamentos estão disponibilizados para serem agendados de forma online. Dependendo do tratamento o sistema irá informar se é possível a pessoa fazer etapas recebendo recomendações via sistema.
+* Relatório que mostre os médicos disponiveis para cada tipo de tratamento disponibilizado pelo sistema, ou seja, será mostrado os médicos que estão disponiveis para marcar a consulta online.
+* Relatório que compara o tempo de duração de cada tratamento de acordo com os registros das etapas no sistema. Com isso a pessoa terá uma noção do tempo gasto em cada tratamento e se for o caso ela poderá otimizar o tempo na próxima vez que for resolver um problema parecido.
  
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
