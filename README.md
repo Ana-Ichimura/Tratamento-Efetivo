@@ -19,7 +19,7 @@ Baseado na necessidade de automatizar alguns serviços de saúde, o sistema ter�
 > O sistema “Tratamento Efetivo” contará com os dados fornecidos pelo paciente como seu nome, idade, sexo, endereço, altura, CPF, data de nascimento e peso, e pelo médico, tais como seu nome e especialização.
 
 >O foco do sistema é ajudar na organização do paciente com seu histórico médico, que por muitas vezes é esquecido e que talvez tenha informações relevantes para suas próximas consultas.
-O psciente terá acesso a todas consultas que realizou, com que médico a fez, datas de início e fim de tratamentos e detalhes sobre os exames.
+O paciente terá acesso a todas consultas que realizou, com que médico a fez, datas de início e fim de tratamentos e detalhes sobre os exames.
 
 >Além disso, através do sistema, o paciente poderá fazer uma busca sobre a especialidade e região que deseja ser atendido.
 
