@@ -41,3 +41,24 @@ O paciente terá acesso a todas consultas que realizou, com que médico a fez, d
 
 https://github.com/Ana-Ichimura/Tratamento-Efetivo/blob/master/Tabela%20de%20dados.xlsx
 
+
+### 5.MODELO CONCEITUAL<br>
+    A) NOTACAO ENTIDADE RELACIONAMENTO 
+ 
+        
+![Alt text]()
+    
+         
+    
+#### 5.1 Validação do Modelo Conceitual
+    [Grupo01]: [Nomes dos que participaram na avaliação]
+    [Grupo02]: [Nomes dos que participaram na avaliação]
+
+#### 5.2 DECISÕES DE PROJETO
+    [atributo]: [descrição da decisão]
+    
+    EXEMPLO:
+    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
+    pode possuir para cada departamento mais de uma localização... 
+    b) justifique!
+
