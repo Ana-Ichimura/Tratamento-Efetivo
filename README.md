@@ -50,6 +50,7 @@ https://github.com/Ana-Ichimura/Tratamento-Efetivo/blob/master/Tabela%20de%20dad
     Lista de Compras Online: Matheus Garcias, Letícia Teixeira, Júlia Miranda, Henrique Bastos
 
 #### 5.2 DECISÕES DE PROJETO
+
     [Tabela TRAMENTO]: [Criação de tabela auxiliar para medicamentos]
     
     a) Campo lista_medicamento: Em vez de criar um campo multivalorado, optamos por criar uma tabela chamada LISTA_MEDICAMENTO que conterá até cinco códigos de medicamentos. Essa lista funcionará como uma tabela auxiliar para a tabela tratamento, já que um tramento pode ter mais de um medicamento sendo usado e por isso vimos a necessidade de criar tal lista.
@@ -69,44 +70,43 @@ https://github.com/Ana-Ichimura/Tratamento-Efetivo/blob/master/Tabela%20de%20dad
     b) Conforme foi dito anteriormente, a consulta para ver a cidade e estado que um bairro pertence torna-se mais simples e ela será indenpendente da tabela endereço, assim como fica mais fácil de saber quais bairros pertecem a um determinado estado ou cidade. 
     Para a tabela cidade é o mesmo caso, a independência da tabela endereço para consultar essas informações torna a consulta mais simples.
     
-    #### 5.3 DESCRIÇÃO DOS DADOS (Descrição das tabelas e de alguns campos das tabelas considerados de difícil compreensão)
+   #### 5.2 DESCRIÇÃO DOS DADOS (Descrição das tabelas e de alguns campos das tabelas considerados de difícil compreensão)
+    ESTADO: Tabela que armazena os estados para serem inseridos na tabela endereco, cidade e bairro.
     
-ESTADO: Tabela que armazena os estados para serem inseridos na tabela endereco, cidade e bairro.
+    CIDADE: Tabela que armazena os dados das cidades registradas no sistema. Ela terá relação com a tabela enderco e bairro.
 
-CIDADE: Tabela que armazena os dados das cidades registradas no sistema. Ela terá relação com a tabela enderco e bairro.
+    BAIRRO: Tabela que especifica o bairro e em qual estado e cidade o bairro está, já que possui relação com a tabela estado e cidade.
 
-BAIRRO: Tabela que especifica o bairro e em qual estado e cidade o bairro está, já que possui relação com a tabela estado e cidade.
-
-ENDERECO: Tabela que armazena o endereço de um paciente junto com o respectivo código do endereço. 
-    Campo COD_END: Código do endereço que será usado como chave estrangeira na tabela PACIENTE.
-    Campo NUM_RESIDENCIA: Número da casa ou do predio em que o paciente mora.
-    Campo NUM_COMPLEMENTO: Caso o paciente more em condomínio, esse campo serve para especificar em qual apartamento o paciente mora.
+    ENDERECO: Tabela que armazena o endereço de um paciente junto com o respectivo código do endereço. 
+        Campo COD_END: Código do endereço que será usado como chave estrangeira na tabela PACIENTE.
+        Campo NUM_RESIDENCIA: Número da casa ou do predio em que o paciente mora.
+        Campo NUM_COMPLEMENTO: Caso o paciente more em condomínio, esse campo serve para especificar em qual apartamento o paciente mora.
     
-PACIENTE: Tabela responsável por guardar os dados do paciente.
-    COD_PACIENTE: Campo usado como chave primaria para o paciente em vez de colocar o CPF como primary key.
-    COD_ENDERECO: Campo para especificar qual é o código do endereço do paciente na tabela endereco.
+    PACIENTE: Tabela responsável por guardar os dados do paciente.
+        COD_PACIENTE: Campo usado como chave primaria para o paciente em vez de colocar o CPF como primary key.
+        COD_ENDERECO: Campo para especificar qual é o código do endereço do paciente na tabela endereco.
     
-ESPECIALIDADE: Tabela que contém o registro das especialidades que podem pertencer aos médicos.
+    ESPECIALIDADE: Tabela que contém o registro das especialidades que podem pertencer aos médicos.
 
-LISTA_ESPECIALIDADE: Será possível registrar para o médico até três especialidades, por isso a tabela lista_especialidade será a responsável por armazenar as possíveis especialidades que o médico venha ter.
-    COD_LISTA: Campo que registra um código para ser usado como chave estrangeira na tabela medico, de modo que os médicos tenham uma lista de especialidade.
-    PRIM_ESPECIALIDADE/SECU_ESPECIALIDADE/TERC_ESPECIALIDADE: Campos que contém o código de no máximo três especialidades distintas para o médico.
+    LISTA_ESPECIALIDADE: Será possível registrar para o médico até três especialidades, por isso a tabela lista_especialidade será a responsável por armazenar as possíveis especialidades que o médico venha ter.
+        COD_LISTA: Campo que registra um código para ser usado como chave estrangeira na tabela medico, de modo que os médicos tenham uma lista de especialidade.
+        PRIM_ESPECIALIDADE/SECU_ESPECIALIDADE/TERC_ESPECIALIDADE: Campos que contém o código de no máximo três especialidades distintas para o médico.
 
-MEDICO: Tabela para armazenar as informações do médicos, tais como o nome, o crm e sua lista de especialidades.
+    MEDICO: Tabela para armazenar as informações do médicos, tais como o nome, o crm e sua lista de especialidades.
 
-MEDICAMENTO: Tabela com o registro dos medicamentos que serão usados nos tratamentos.
+    MEDICAMENTO: Tabela com o registro dos medicamentos que serão usados nos tratamentos.
 
-LISTA_MEDICAMENTO: Como pode ser usado mais de um medicamento em um tratamento, a tabela lista_medicamento serve para armazenar até 5 medicamentos onde serão vinculados depois a tabela tratamento através do um código.
-    PRIM_COD/SEGU_COD/TERC_COD/QUART_COD/QUINT_COD: Campos que conterá até cinco códigos de medicamentos.
+    LISTA_MEDICAMENTO: Como pode ser usado mais de um medicamento em um tratamento, a tabela lista_medicamento serve para armazenar até 5 medicamentos onde serão vinculados depois a tabela tratamento através do um código.
+        PRIM_COD/SEGU_COD/TERC_COD/QUART_COD/QUINT_COD: Campos que conterá até cinco códigos de medicamentos.
     
-HOSPITAL: Tabela que contém o registro do hospital o qual o tratamento estará sendo realizado.
+    HOSPITAL: Tabela que contém o registro do hospital o qual o tratamento estará sendo realizado.
 
-DOENCA: Tabela usada para armazenar as doenças a serem tratadas.
+    DOENCA: Tabela usada para armazenar as doenças a serem tratadas.
 
-TRATAMENTO: Tabela com as informações de um tramento em andamento ou finalizado.
-    LISTA_MEDICAMENTO: Campo com o código da lista de medicamento a serem usados no tratamento.
-    NUM_CRM: Campo com o código do CRM do médico.
-    INICIO_TRAT e FIM_TRAT: Campo com a respectiva data de inicio e fim do tratamento.
+    TRATAMENTO: Tabela com as informações de um tramento em andamento ou finalizado.
+        LISTA_MEDICAMENTO: Campo com o código da lista de medicamento a serem usados no tratamento.
+        NUM_CRM: Campo com o código do CRM do médico.
+        INICIO_TRAT e FIM_TRAT: Campo com a respectiva data de inicio e fim do tratamento.
 
 
     
