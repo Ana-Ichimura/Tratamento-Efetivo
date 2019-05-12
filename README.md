@@ -41,7 +41,7 @@ https://github.com/Ana-Ichimura/Tratamento-Efetivo/blob/master/Tabela%20de%20dad
     A) NOTACAO ENTIDADE RELACIONAMENTO 
  
         
-![Alt text](https://github.com/Ana-Ichimura/Tratamento-Efetivo/blob/master/Modelo_Conceitual.png)
+![Alt text](https://github.com/Ana-Ichimura/Tratamento-Efetivo/blob/master/Conceitual.jpg)
     
          
     
