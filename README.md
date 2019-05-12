@@ -70,7 +70,7 @@ https://github.com/Ana-Ichimura/Tratamento-Efetivo/blob/master/Tabela%20de%20dad
     b) Conforme foi dito anteriormente, a consulta para ver a cidade e estado que um bairro pertence torna-se mais simples e ela será indenpendente da tabela endereço, assim como fica mais fácil de saber quais bairros pertecem a um determinado estado ou cidade. 
     Para a tabela cidade é o mesmo caso, a independência da tabela endereço para consultar essas informações torna a consulta mais simples.
     
-   #### 5.2 DESCRIÇÃO DOS DADOS (Descrição das tabelas e de alguns campos das tabelas considerados de difícil compreensão)
+   #### 5.3 DESCRIÇÃO DOS DADOS (Descrição das tabelas e de alguns campos das tabelas considerados de difícil compreensão)
     ESTADO: Tabela que armazena os estados para serem inseridos na tabela endereco, cidade e bairro.
     
     CIDADE: Tabela que armazena os dados das cidades registradas no sistema. Ela terá relação com a tabela enderco e bairro.
