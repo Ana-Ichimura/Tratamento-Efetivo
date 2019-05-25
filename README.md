@@ -113,7 +113,7 @@ https://github.com/Ana-Ichimura/Tratamento-Efetivo/blob/master/Tabela%20de%20dad
 
     DOENCA: Tabela usada para armazenar as doenças a serem tratadas.
 
-    TRATAMENTO: Tabela com as informações de um tramento em andamento ou finalizado.
+    TRATAMENTO: Tabela com as informações de um tramento em andamento ou finalizado. Ela armazena também informações como o paciente que está realizando o tratamento e o hospital o qual o processo está sendo feito.
         LISTA_MEDICAMENTO: Campo com o código da lista de medicamento a serem usados no tratamento.
         NUM_CRM: Campo com o código do CRM do médico.
         INICIO_TRAT e FIM_TRAT: Campo com a respectiva data de inicio e fim do tratamento.
