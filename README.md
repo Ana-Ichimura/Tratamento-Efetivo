@@ -54,11 +54,12 @@ https://github.com/Ana-Ichimura/Tratamento-Efetivo/blob/master/Tabela%20de%20dad
     [Tabela TRAMENTO]: [Criação de tabela auxiliar para medicamentos]
     
     a) Campo lista_medicamento: Em vez de criar um campo multivalorado, optamos por criar uma tabela chamada LISTA_MEDICAMENTO que conterá até cinco códigos de medicamentos. Essa lista funcionará como uma tabela auxiliar para a tabela tratamento, já que um tramento pode ter mais de um medicamento sendo usado e por isso vimos a necessidade de criar tal lista.
+    
     b) Um campo multivalorado não deixaria as informações legíveis do modo como gostariamos, e mesmo que a criação de uma tabela auxiliar aumente a complexidade do projeto, esse foi um dos únicos meios que encontramos até o momomento de inserior mais de uma informação em um único campo.
     
-    [Tabela MEDICAMENTO]: [Criação de tabela auxiliar para especialidades]
+    [Tabela MEDICO]: [Criação de tabela auxiliar para especialidades]
     
-    a) Campo lista_especialidade: Semelhante ao caso citado acima, a tabela LISTA_ESPECIALIDADE que contém no máximo três especialidades foi criada com o intuito de vincular até três tipos de especialidades para um único médico.
+    a) Campo lista_especialidade: Semelhante ao caso citado acima, a tabela LISTA_ESPECIALIDADE contém no máximo três especialidades e foi criada com o intuito de vincular até três tipos de especialidades para um único médico.
     
     b) Prezando pela legibilidade novamente, um campo multivalorado dificultaria a consulta de informações na tabela e a legibilidade delas seria menor.
     
@@ -70,12 +71,21 @@ https://github.com/Ana-Ichimura/Tratamento-Efetivo/blob/master/Tabela%20de%20dad
     b) Conforme foi dito anteriormente, a consulta para ver a cidade e estado que um bairro pertence torna-se mais simples e ela será indenpendente da tabela endereço, assim como fica mais fácil de saber quais bairros pertecem a um determinado estado ou cidade. 
     Para a tabela cidade é o mesmo caso, a independência da tabela endereço para consultar essas informações torna a consulta mais simples.
     
-   #### 5.3 DESCRIÇÃO DOS DADOS (Descrição das tabelas e de alguns campos das tabelas considerados de difícil compreensão)
+    [Tabela RUA]: [Chave estrangeira para rua, contendo então o código do bairro,cidade e estado]
+    
+    a) Campo cod_bairro,cod_cidade e cod_estado: Anteriormente tinhamos optado por colocar o nome da rua diretamente na tabela ENDERECO e o código do bairro, cidade e estado como chave estrangeira na tabela ENDERECO. De modo que simplifique as informações presente na tabela e evite ruas com nomes repetidos, decidimos criar uma tabela chamada RUA e colocar como chave estrangeira o código do bairro, cidade e estado.
+    
+     b) O número de chaves estrangeiras da tabela ENDERECO será menor, já que usando uma única tabela (RUA) conseguiremos deixar a tabela ENDERECO com três colunas a menos, tendo em vista que as informações relacionadas ao bairro, cidade e estado poderão ser encontradas na tabela rua. Conforme foi dito anteriormente, um dos objetivos é evitar também a repetição do nome da rua na tabela ENDERECO.
+     
+     
+   #### 5.3 DESCRIÇÃO DOS DADOS (Descrição das tabelas e dos campos, das tabelas, considerados de difícil compreensão)
     ESTADO: Tabela que armazena os estados para serem inseridos na tabela endereco, cidade e bairro.
     
     CIDADE: Tabela que armazena os dados das cidades registradas no sistema. Ela terá relação com a tabela enderco e bairro.
 
     BAIRRO: Tabela que especifica o bairro e em qual estado e cidade o bairro está, já que possui relação com a tabela estado e cidade.
+
+    RUA: Tabela que armazena o nome da rua e o codigo interno do sistema da rua cadastrada. 
 
     ENDERECO: Tabela que armazena o endereço de um paciente junto com o respectivo código do endereço. 
         Campo COD_END: Código do endereço que será usado como chave estrangeira na tabela PACIENTE.
