@@ -118,6 +118,7 @@ https://github.com/Ana-Ichimura/Tratamento-Efetivo/blob/master/Tabela%20de%20dad
         NUM_CRM: Campo com o código do CRM do médico.
         INICIO_TRAT e FIM_TRAT: Campo com a respectiva data de inicio e fim do tratamento.
 
+
 7	MODELO FÍSICO
 
 CREATE TABLE ESTADO(
@@ -277,6 +278,6 @@ CREATE TABLE TRATAMENTO(
 	FOREIGN KEY (COD_HOSPITAL) REFERENCES HOSPITAL (COD_HOSPITAL) MATCH FULL ON DELETE CASCADE ON UPDATE CASCADE
 );
 
-
+Link modelo físico: https://drive.google.com/drive/folders/1HNHsZx3BMc_Wu5OZrmySoSfP8RM8vC5K
     
 
