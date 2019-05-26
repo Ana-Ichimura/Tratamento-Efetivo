@@ -87,7 +87,7 @@ https://github.com/Ana-Ichimura/Tratamento-Efetivo/blob/master/Tabela%20de%20dad
 
     RUA: Tabela que armazena o nome da rua e o codigo interno do sistema da rua cadastrada. 
 
-    ENDERECO: Tabela que armazena o endereço de um paciente junto com o respectivo código do endereço. 
+    ENDERECO: Tabela que armazena o endereço de um paciente junto com o respectivo código do endereço. Ela terá também a chave estrangeira que especifica a rua desse endereço.
         Campo COD_END: Código do endereço que será usado como chave estrangeira na tabela PACIENTE.
         Campo NUM_RESIDENCIA: Número da casa ou do predio em que o paciente mora.
         Campo NUM_COMPLEMENTO: Caso o paciente more em condomínio, esse campo serve para especificar em qual apartamento o paciente mora.
